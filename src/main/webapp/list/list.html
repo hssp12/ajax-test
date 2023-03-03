@@ -20,7 +20,7 @@ var addList = function() {
 //           num:$('#content input').eq(2).val()
     };
     
-    $.post('./ajaxproject/list/add.do',$.param(param), function(data, msg) {
+    $.post('http://localhost:8080/ajaxproject/list/add.do',$.param(param), function(data, msg) {
     	$('#content input').eq(0).val(" ");
         $('#content input').eq(1).val(" ");
        console.log(data, msg);
