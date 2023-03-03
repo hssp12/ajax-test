@@ -13,6 +13,7 @@ public class BitSql {
 	static {
 		driver="com.mysql.cj.jdbc.Driver";
 		url="jdbc:mysql://localhost:3306/lecture";
+		url="jdbc:mysql://192.168.99.100:3306/lecture";
 		user="scott";
 		password="1234";
 	}
